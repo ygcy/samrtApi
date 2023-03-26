@@ -1,10 +1,8 @@
 package com.zhangfuqiang.zapi.entity;
 
-import com.zhangfuqiang.zapi.entity.RequestEntityFieldDTO;
-import com.zhangfuqiang.zapi.entity.RequestParamNameAndValue;
+
 import com.zhangfuqiang.zapi.util.JavaBaseType;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

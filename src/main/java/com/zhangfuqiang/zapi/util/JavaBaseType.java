@@ -26,10 +26,9 @@ public class JavaBaseType {
     private  static final List<String> baseTypeList = new ArrayList<>();
 
      static {
-         Add add = new Add();
-         add.addToList(intType).addToList(boolType).addToList(stringType)
-        .addToList(longType).addToList(doubleType).addToList(floatType)
-        .addToList(charType).addToList(boolType).addToList(intBaseType)
+         new Add().addToList(intType).addToList(boolType).addToList(stringType)
+         .addToList(longType).addToList(doubleType).addToList(floatType)
+         .addToList(charType).addToList(boolType).addToList(intBaseType)
          .addToList(boolBaseType).addToList(longBaseType).addToList(doubleBaseType)
          .addToList(floatBaseType).addToList(byteType).addToList(byteBaseType);
     }

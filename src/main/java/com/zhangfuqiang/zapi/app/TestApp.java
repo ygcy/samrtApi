@@ -1,7 +1,6 @@
 package com.zhangfuqiang.zapi.app;
 
 
-import com.zhangfuqiang.zapi.annotation.Controller;
 import com.zhangfuqiang.zapi.entity.RequestEntity;
 import com.zhangfuqiang.zapi.entity.RequestEntityFieldDTO;
 import com.zhangfuqiang.zapi.entity.RequestParamNameAndValue;
@@ -21,15 +20,15 @@ import java.util.List;
 /**
  * @author zhangfuqiang
  */
-@Controller
 public class TestApp {
 
-
-
-
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        start();
+    }
 
-        String basePackage = "com.zhangfuqiang.zapi";
+    public static void start() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+
+        String basePackage = "com.zfq";
         Scanner scanner = new Scanner(basePackage);
         List<Class> classes = scanner.listClassFileName();
 

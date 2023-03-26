@@ -1,13 +1,13 @@
 package com.zhangfuqiang.zapi.util;
 
-import com.zhangfuqiang.zapi.annotation.Controller;
+
 import com.zhangfuqiang.zapi.entity.TestEntity;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author zhangfuqiang
  */
-@Controller
+
 public class StringUtils {
 
     @ResponseBody
